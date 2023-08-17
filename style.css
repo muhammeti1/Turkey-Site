@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Herr+Von+Muellerhoff&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin:  auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+nav li a {
+    color: #42220c;
+    font-weight: 600;
+    margin: 30px;
+}
+.icon i{
+font-size: 25px;
+}
+.navbar .logo img{
+    width: 200px;
+}
+
+/* ROW */
+
+.row{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.col-2{
+flex-basis: 50%;
+}
+.container .box{
+    width: 1200px;
+    height: 800px;
+    margin-top: -30px;
+    position: relative;
+    left: 200px;
+}
+.container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+.container .box video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.col-2{
+    position: relative;
+    right: 100px;
+   
+}
+.col-2 h1{
+    font-size: 2rem;
+    color: #42220c;
+    position: relative;
+    
+}
+.col-2 span{
+    font-size: 3rem;
+    margin-left: 80px!important;
+    line-height: 60px;
+    margin: 20px 0;
+}
+.col-2 span .country{
+    font-size: 3rem;
+    margin-left: 140px!important;
+}
+.col-2 p {
+    margin: 15px 0;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
